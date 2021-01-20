@@ -1,11 +1,15 @@
 import React from 'react'
 import './Home.css'
 import propic from '../../assests/propic.jpg';
+
 ;
 
 const Home = () => {
+
     return (
+
         <div className='Home'>
+
             <div className='Header'>
                 <img src={propic} className='ProPic'></img>
 
@@ -21,9 +25,14 @@ const Home = () => {
                 </div>
             </div>
             <hr></hr>
+
             <div className='About'>
+
                 <h1>Sebastian Arnavat</h1>
+                <p>kfslfjkdfns</p>
             </div>
+
+
 
         </div>
     )
