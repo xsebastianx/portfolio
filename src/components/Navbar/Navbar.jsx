@@ -19,12 +19,12 @@ const Navbar = () => {
             </ul>
             <ul className='ExternalLinks'>
                 <li>
-                    <a href='https://github.com/xsebastianx' target="_blank">
+                    <a href='https://github.com/xsebastianx' target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faGithub} color='white' size='2x' />
                     </a>
                 </li>
                 <li>
-                    <a href='https://www.linkedin.com/in/sebastianarnavat/' target="_blank">
+                    <a href='https://www.linkedin.com/in/sebastianarnavat/' target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} color='white' size='2x' />
                     </a>
                 </li>

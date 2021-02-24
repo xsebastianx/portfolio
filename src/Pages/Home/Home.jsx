@@ -11,7 +11,7 @@ const Home = () => {
         <div className='Home'>
 
             <div className='Header'>
-                <img src={propic} className='ProPic'></img>
+                <img src={propic} alt='profile' className='ProPic'></img>
                 <div className='SkillsBar'>
                     <h1>Skills</h1>
                     <ul className="Skills">
@@ -35,4 +35,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Home;
